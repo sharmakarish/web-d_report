@@ -1,0 +1,47 @@
+nav a{
+    text-decoration: none;
+    color:white;
+    text-align:center;
+    padding: 20px;
+    float:left;
+}
+nav{
+    background-color: rgb(126, 27, 27);
+    overflow:hidden;
+}
+nav a:hover{
+color:yellow;
+}
+nav a:visited{
+    color:rgb(25, 0, 255);
+}
+
+header{
+    background-color: maroon;
+  background-repeat:no-repeat;
+    background-size:contain;
+    
+
+}
+h1{
+
+background-position: bottom;
+text-align:center;
+color:white;
+
+} 
+p.border{
+border-style:dashed;
+}
+.b-wpic{
+height: 300px;
+align-items: center;
+}
+h3,h2{
+    text-align: center;
+}
+footer{
+    background-color: lightslategrey;
+    float:none;
+    text-align: left;
+}
