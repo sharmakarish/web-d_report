@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+    <link rel="stylesheet" href="payment.css">
+  <style>
+    *{
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 15px 30px 10px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.container{
+    background-color: rgb(97, 156, 137);
+    padding: 5px 20px 15px 20px;
+    border: 2px ;
+    border-color: rgb(168, 96, 236);
+    border-radius: 50px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"]{
+    width: 100%;
+    padding: 12px;
+    border:1px ;
+    border-radius: 5px;
+}
+textarea {
+    width: 100%;
+    padding: 12px;
+    border:1px solid rgb(229, 255, 0);
+    border-radius: 5px;
+    margin: 10px;
+}
+fieldset{
+    background-color: rgb(203, 219, 214);
+    border: cornflowerblue;
+}
+.main_heading{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: rgb(223, 0, 0);
+    color: gold;
+    font-weight: bolder;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0px24px;
+    cursor: pointer;
+}
+input[ type="submit"]:hover{
+  background-color: rgb(8, 124, 18);
+   
+}
+.gender{
+    border: 4px;
+    border-radius: 30px;
+}
+  </style>
+</head>
+<body>
+    <form  >
+        <div class="container">
+     <h1 class="main_heading">Payment form</h1>
+        <p> Required fields are followed by *</p>
+      
+        <p>Name : *<input type="text"  name="name" required placeholder="Enter your name"> </p>
+    <fieldset>
+            <legend> gender *</legend>
+        <p class="gender">
+            Male <input type="radio" name="gender" id="Male" required>
+            Female <input type="radio" name="gender" id="Female" required>
+        </p>
+    </fieldset>
+<p> Address : <textarea  name="address" id="address" cols="50" rows="5 "> </textarea>  </p> 
+<p> E-mail :* </p>
+<p> Pincode : *<input type="number" id="pincode " required></p>
+<hr>
+<h2> Payment Information </h2>
+<p>Card Type :* 
+<select  name="card type" id="card type " required>  
+    <option value="">---Select a Card Type </option>
+    <option value="Visa">Visa </option>
+    <option value="Mastercard">Mastercard </option>
+    <option value="Rupay">Rupay </option>
+</select>
+</p>
+<p>Card Number :*<input type="number" name="card number" id="card number" required></p>
+<p>Expiration  date : *<input type="date" name="expiration date" id="expiration date"required></p>
+<p>CVV : *<input type="password" name="CVV" id="CVV"required></p>
+<input type ="Submit" value="Pay Now">
+</div>
+    </form>
+</body>
+</html>
