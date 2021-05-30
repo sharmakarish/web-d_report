@@ -23,6 +23,7 @@ header{
     background-color: maroon;
   background-repeat:no-repeat;
     background-size:contain; 
+    padding: 20px;
 }
 
 h1{
