@@ -1,0 +1,114 @@
+body{
+    margin: 0 auto;
+    max-width: 900px;
+    width: 90%;
+    background-image: url("/imgs/texture.jpg");
+    
+}
+.special{
+    background-color: lightblue;
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+}
+#k1 {
+  /* padding bottom: 80px; */
+    float: left;
+    margin: 15px;
+     width: 150px;
+     height: 150px;
+     /* border-radius: 10px; */
+     /* background-color:rgb(120, 69, 156); */
+     /* padding: 70px; */
+     /* clip-path: circle(41% at 50% 50%); */
+   border-radius: 15px;
+   /* padding: 10px; */
+  background-color: black;
+   /* margin: 15px; */
+   background-color: rgb(11, 12, 11);
+       
+   padding: 20px;
+   margin: 15px;
+ 
+}
+#k2 {
+    float: right;
+    margin: 15px;
+     width: 150px;
+     height: 150px;
+     border-radius: 10px;
+     background-color:rgb(226, 126, 32);
+     /* padding: 80px; */
+     clip-path: circle(41% at 50% 50%);
+ 
+}
+#k3 {
+    float: left;
+    margin: 15px;
+     width: 150px;
+     height: 150px;
+     /* border-radius: 10px; */
+     background-color:rgb(32, 51, 226);
+     /* padding: 80px; */
+     clip-path: circle(41% at 50% 50%);
+}
+#k4 {
+    float: right;
+    margin: 15px;
+     width: 150px;
+     height: 150px;
+     /* border-radius: 10px; */
+     background-color:rgb(226, 32, 139);
+     /* padding: 80px; */
+     clip-path: circle(41% at 50% 50%);
+}
+#k5 { float: left;
+    margin: 15px;
+     width: 150px;
+     height: 150px;
+     /* border-radius: 10px; */
+     background-color:rgb(114, 114, 114);
+     /* padding: 80px; */
+     clip-path: circle(41% at 50% 50%);
+}
+.p1{
+      border-radius: 8px ;
+    background-color: rgb(120, 69, 156);
+    height:220px;
+    text-align:center;
+  font-size:x-large;
+}
+.p2{
+      border-radius: 8px;
+    background-color: rgb(226, 126, 32);;
+    height:220px;
+    text-align:center;
+  font-size:x-large;
+  /* margin: 80px; */
+}
+.p3{
+      border-radius: 8px;
+    background-color: rgb(32, 51, 226);
+    height:220px;
+    text-align:center;
+  font-size:x-large;
+  /* margin: 80px; */
+}
+.p4{
+      border-radius: 8px;
+    background-color:rgb(226, 32, 139);
+    height:220px;
+    text-align:center;
+  font-size:x-large;
+  /* margin: 80px; */
+}
+.p5{
+      border-radius: 8px;
+    background-color: rgb(114, 114, 114);
+    height:220px;
+    text-align:center;
+  font-size:x-large;
+  /* margin: 80px; */
+}
